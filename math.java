@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 /**
  * Write a description of class math here.
  * 
@@ -7,27 +7,13 @@
  */
 public class math
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class math
-     */
-    public math()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public static void main(String[] args){
+        int f = 5;
+        int s = 5;
+        System.out.println("the sum of " + f + " " + s + " " + "is" + (f + s));
+        System.out.println("the difference of " + f + " " + s  + " " + "is" + (f - s));
+        System.out.println("the product of " + f + " " + s+ " " +"is" + (f * s));
+        System.out.println("the dividend of " + f + " " + s + " " + "is" + (f / s));
+        
     }
 }
